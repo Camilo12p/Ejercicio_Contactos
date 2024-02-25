@@ -30,7 +30,7 @@ def Principal(contactos:dict):
             elif op==4:
                 wraper(co.searchContact(dataContacts))
             elif op==5:
-                isOption= e.exit()
+                isOption = e.exit()
 
         except ValueError:
             print('Ingrese un valor valido')

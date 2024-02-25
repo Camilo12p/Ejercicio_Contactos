@@ -5,5 +5,3 @@ if (__name__ =='__main__'):
     m.c.checkFile('agenda.json',contactos)
     m.Principal(contactos)
     
-    
-    pass
